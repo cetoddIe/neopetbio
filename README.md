@@ -1,1 +1,1 @@
-live preview here: https://goldenfreddy.neocities.org/bonus/neopetbio
+live preview here: https://goldentemps.neocities.org/template/neopetbio
