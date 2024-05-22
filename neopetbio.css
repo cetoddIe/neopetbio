@@ -2,126 +2,126 @@
 /* (code cleaned and ripped from the official neopets website) */
 
 body {
-		margin: auto;
-		padding-left: 10px;
-		padding-right: 10px;
-		text-align: center;
-    background: #ffd026 url("https://goldentemps.neocities.org/assets/background.png");
-    height: 100vh;
-    width: 1100px;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	background: #ffd026 url("https://goldentemps.neocities.org/assets/background.png");
+	height: 100vh;
+	width: 1100px;
 }
 
 body, td {
-		font-family: Verdana, Arial, Helvetica, sans-serif;
-		font-size: 9pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
 }
 
 a {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 a:link, a:visited, a:hover {
-		text-decoration: none;
+	text-decoration: none;
 }
 
 .title {
-    font-weight: bold;
-    font-size: 18px;
-    width: fit-content;
-    margin: auto;
-    padding: 10px 20px 10px 20px;
-    border: 3px ridge #E4E4E4;
-    box-sizing: border-box;
-    background-color: white;
-	}
+	font-weight: bold;
+	font-size: 18px;
+	width: fit-content;
+	margin: auto;
+	padding: 10px 20px 10px 20px;
+	border: 3px ridge #E4E4E4;
+	box-sizing: border-box;
+	background-color: white;
+}
 
 /* table code */
 
 .contentModule {
-		height: 100%;
-		border: 2px solid #E4E4E4;
-	}
-
-.contentModuleTable {
-		width: 100%;
-		height: 100%;
-		border: 2px solid #C9C9C9;
-	}
-
-	.contentModuleHeader {
-		height: 22px;
-		font-size: 9pt;
-		font-weight: bold;
-		text-align: left;
-		padding-left: 3px;
-		background-color: black;
-		color: white;
+	height: 100%;
+	border: 2px solid #E4E4E4;
 }
 
-	.contentModuleHeaderAlt {
-		height: 22px;
-		font-size: 9pt;
-		font-weight: bold;
-		text-align: left;
-		padding-left: 3px;
-		background-color: #2367B5;
-		color: white;
+.contentModuleTable {
+	width: 100%;
+	height: 100%;
+	border: 2px solid #C9C9C9;
+}
+
+.contentModuleHeader {
+	height: 22px;
+	font-size: 9pt;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 3px;
+	background-color: black;
+	color: white;
+}
+
+.contentModuleHeaderAlt {
+	height: 22px;
+	font-size: 9pt;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 3px;
+	background-color: #2367B5;
+	color: white;
 }
 
 .contentModuleHeader A:Link, .contentModuleHeader A:Visited, .contentModuleHeader A:Hover,
 .contentModuleHeaderAlt A:Link, .contentModuleHeaderAlt A:Visited, .contentModuleHeaderAlt A:Hover {
-		text-decoration: none;
+	text-decoration: none;
 }
 
-	.contentModuleContent {
-		width: 100%;
-		height: 100%;
-		position: relative;
-		background-color: #FFFFFF;
+.contentModuleContent {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #FFFFFF;
 }
 
 /* legacy code */
 
 .sf, .smallfont {
-		font-size: 7.5pt;
+	font-size: 7.5pt;
 }
 
 .medText {
-		font-size: 8pt;
+	font-size: 8pt;
 }
 
 .indexTitle {
-		font-size: 9pt;
+	font-size: 9pt;
 }
 
 /* pet container */
 
 div.pet_image_container {
-    position: relative;
-    width: 100%;
-    font-size: 0;
-    line-height: 0;
-    border: 1px solid black;
-    box-sizing: border-box;
+	position: relative;
+	width: 100%;
+	font-size: 0;
+	line-height: 0;
+	border: 1px solid black;
+	box-sizing: border-box;
 }
 
 div.pet_image_container img {
-  object-fit: contain;
-  width: 200px;
-  height: 250px;
-  margin: 10px;
+	object-fit: contain;
+	width: 200px;
+	height: 250px;
+	margin: 10px;
 }
 
 .gallery {
-		align-content: center;
+	align-content: center;
 }
 
 .gallery p {
-		margin-bottom: -5px;
+	margin-bottom: -5px;
 }
 
 .gallery img {
-		height: 80px;
-		width: 80px;
-		border: 1px solid #000000;
+	height: 80px;
+	width: 80px;
+	border: 1px solid #000000;
 }
